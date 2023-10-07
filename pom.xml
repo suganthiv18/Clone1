@@ -2,20 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>DS-Algo</groupId>
   <artifactId>DS-Algo</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-	<properties>
+  < <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
    <build>
 	  
 	  <plugins>
-		
-			  <plugin> <groupId>org.codehaus.gmavenplus</groupId>
- <artifactId>gmavenplus-plugin</artifactId> <version>1.5</version>
- <executions> <execution> <goals> <goal>compile</goal>
- <goal>testCompile</goal> </goals> </execution> </executions> </plugin>
-		    <plugin>
+		  <plugin>
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-compiler-plugin</artifactId>
 		        <version>3.11.0</version>
@@ -36,7 +30,6 @@
 				  <suiteXmlFiles>
 					  <suiteXmlFile>TestNG.xml</suiteXmlFile>
 				  </suiteXmlFiles>
-				  
 			  </configuration>
 		  </plugin>
 		  
